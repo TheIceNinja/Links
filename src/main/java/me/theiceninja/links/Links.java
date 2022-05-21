@@ -10,7 +10,7 @@ public final class Links extends JavaPlugin {
     @Override
     public void onEnable() {
         // Plugin startup logic
-        Bukkit.getConsoleSender().sendMessage(ChatColor.of("#0CF3A6") + "plugin is enabled");
+        Bukkit.getConsoleSender().sendMessage(ColorUtils.translateColorCodes("&#CE0EF9Links &8» &#0CF37Cenabled"));
         getCommand("discord").setExecutor(new DiscordCommand(this));
         getCommand("youtube").setExecutor(new YoutubeCommand(this));
         getCommand("namemc").setExecutor(new NameMcCommand(this));
@@ -24,6 +24,6 @@ public final class Links extends JavaPlugin {
     @Override
     public void onDisable() {
         // Plugin shutdown logic
-        Bukkit.getConsoleSender().sendMessage(ChatColor.of("#F32F0C") + "plugin is disabled");
+        Bukkit.getConsoleSender().sendMessage(ColorUtils.translateColorCodes("&#CE0EF9Links &8» &#E85923disabled"));
     }
 }
