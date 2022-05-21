@@ -1,0 +1,8 @@
+me\theiceninja\links\Links.class
+me\theiceninja\links\commands\YoutubeCommand.class
+me\theiceninja\links\TabCompleter\ReloadTabComplete.class
+me\theiceninja\links\commands\NameMcCommand.class
+me\theiceninja\links\commands\DiscordCommand.class
+me\theiceninja\links\commands\ColorsUtils.class
+me\theiceninja\links\commands\ReloadCommand.class
+me\theiceninja\links\commands\StoreCommand.class
