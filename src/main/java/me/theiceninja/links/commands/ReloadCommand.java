@@ -21,18 +21,14 @@ public class ReloadCommand implements CommandExecutor {
                     p.sendMessage(ChatColor.RED + "Usage: /links (reload)");
                     return true;
                 }
-                if (p.hasPermission("links.reload")){
                     if (args.length >= 1){
                         if (args[0].equalsIgnoreCase("reload")){
                             plugin.reloadConfig();
                             p.sendMessage(ChatColor.translateAlternateColorCodes('&', "&6הפלאגין רונדר."));
                             return true;
 
-                }else{
-                            p.sendMessage(ChatColor.RED + "You dont have the perms to that command.");
-                        }
-                    }
                 }
+            }
 
             }else{
             p.sendMessage(ChatColor.RED + "You dont have the perms to that command.");
@@ -43,8 +39,6 @@ public class ReloadCommand implements CommandExecutor {
         return true;
     }
 }
-
-
 
 
 
